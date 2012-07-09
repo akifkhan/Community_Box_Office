@@ -1,0 +1,15 @@
+<?php
+if (!$link = mysql_connect('182.72.63.18', 'fc_team_86', 'DEn9RDNvcmz6AcTQ')) 
+{
+    echo mysql_error();
+    exit;
+}
+if (!mysql_select_db('fc_team_86', $link)) 
+{
+    echo 'Could not select database';
+    exit;
+}
+$query= 'select name from movies';
+
+mysql_close($link);
+?>
