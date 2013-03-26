@@ -11,6 +11,7 @@ tmp/
 *.bak
 *.swp
 *~.nib
+*.php~
 local.properties
 .classpath
 .settings/
