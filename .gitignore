@@ -20,6 +20,7 @@ local.properties
 # External tool builders
 .externalToolBuilders/
 *~.php
+*.php~
 # Locally stored "Eclipse launch configurations"
 *.launch
 
